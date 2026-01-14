@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>hi</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            width: 100vw;
+            height: 100vh;
+            background: #000;
+            overflow: hidden;
+            contain: layout size;
+        }
+
+        #Ξ_NODE {
+            position: absolute;
+            top: 0;
+            left: 0;
+            display: inline-flex;
+            line-height: 0;
+            color: #fff;
+        }
+
+        #Ξ_NODE svg {
+            width: auto;
+            height: auto;
+            display: block;
+            overflow: visible;
+        }
+
+        #Ξ_NODE svg * {
+            fill: currentColor !important;
+            transition: fill 0.05s linear;
+        }
+    </style>
+</head>
+<body>
+    <div id="Ξ_NODE"></div>
+    <script src="script.js"></script>
+</body>
+</html>
